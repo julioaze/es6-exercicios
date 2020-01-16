@@ -72,7 +72,7 @@ arr.map(item => item + 10);
 
 // 3.2
 
-const usuario = { nome: "Diego", idade: 23 };
+const usuario = { nome: "Julio", idade: 25 };
 
 const mostraIdade = usuario => usuario.idade;
 
@@ -83,7 +83,7 @@ mostraIdade(usuario);
 const nome = "Diego";
 const idade = 23;
 
-const mostraUsuario = (nome = "Diego", idade = 18) => ({
+const mostraUsuario = (nome = "Julio", idade = 25) => ({
   nome,
   idade
 });
